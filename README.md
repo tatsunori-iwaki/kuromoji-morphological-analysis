@@ -1,24 +1,12 @@
-# morphological-analysis-vuejs
 
-## Project setup
 ```
-yarn install
-```
+cd ~/IdeaProjects
+vue create morphological-analysis-vuejs
 
-### Compiles and hot-reloads for development
-```
+cd ~/IdeaProjects/morphological-analysis-vuejs
 yarn serve
-```
 
-### Compiles and minifies for production
+cd ~/IdeaProjects/morphological-analysis-vuejs
+yarn add kuromoji zlibjs
+yarn add bootstrap-vue
 ```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
